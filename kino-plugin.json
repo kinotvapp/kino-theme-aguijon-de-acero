@@ -1,0 +1,79 @@
+{
+  "id": "theme-aguijon-de-acero",
+  "name": "Aguijón de Acero",
+  "version": "1.0.0",
+  "apiVersion": 17,
+  "entry": "plugin.js",
+  "icon": "icon.png",
+  "description": "Amarillo de carrocería sobre negro, con esquinas de máquina que se transforma.",
+  "author": "kinotvapp",
+  "hosts": [],
+  "categories": [
+    "themes"
+  ],
+  "capabilities": [
+    "screen"
+  ],
+  "screen": {
+    "label": "Aguijón de Acero",
+    "labelEn": "Steel Stinger",
+    "opensFrom": [
+      "settings"
+    ],
+    "settingsButton": {
+      "label": "Ver presentación",
+      "labelEn": "See presentation"
+    }
+  },
+  "appThemes": [
+    {
+      "id": "aguijon-de-acero",
+      "name": {
+        "es": "Aguijón de Acero",
+        "en": "Steel Stinger"
+      },
+      "colors": {
+        "accent": "#FFD000",
+        "onAccent": "#141100",
+        "background": "#0C0C0A",
+        "surface": "#1A1912",
+        "surfaceHigh": "#27261B",
+        "railPanel": "#131209"
+      },
+      "shape": {
+        "cardRadius": 4,
+        "channelRadius": 4,
+        "buttonRadius": 6,
+        "chipRadius": 4,
+        "dialogRadius": 8,
+        "inputRadius": 4
+      },
+      "typography": {
+        "scale": 1.0,
+        "titleScale": 1.05
+      },
+      "tv": {
+        "typography": {
+          "scale": 1.0
+        }
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#FFD000",
+            "#FFB000",
+            "#D7DBE0"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 32
+        },
+        "typography.scale": {
+          "min": 1.0,
+          "max": 1.3
+        }
+      }
+    }
+  ]
+}
