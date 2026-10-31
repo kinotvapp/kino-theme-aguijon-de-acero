@@ -1,7 +1,7 @@
 {
   "id": "theme-aguijon-de-acero",
   "name": "Aguijón de Acero",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "apiVersion": 17,
   "entry": "plugin.js",
   "icon": "icon.png",
