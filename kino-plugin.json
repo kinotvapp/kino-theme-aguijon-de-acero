@@ -1,8 +1,8 @@
 {
   "id": "theme-aguijon-de-acero",
   "name": "Aguijón de Acero",
-  "version": "1.0.2",
-  "apiVersion": 17,
+  "version": "1.0.3",
+  "apiVersion": 18,
   "entry": "plugin.js",
   "icon": "icon.png",
   "description": "Amarillo de carrocería sobre negro, con esquinas de máquina que se transforma.",
