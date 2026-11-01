@@ -1,7 +1,7 @@
 {
   "id": "theme-aguijon-de-acero",
   "name": "Aguijón de Acero",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "apiVersion": 18,
   "entry": "plugin.js",
   "icon": "icon.png",
@@ -73,6 +73,10 @@
           "min": 1.0,
           "max": 1.3
         }
+      },
+      "price": {
+        "kinos": 10,
+        "payTo": "8b97f0011f9d4594d269edc4afb3a0ee10e394abf54b0a40d90ca83f8f7d6a0e"
       }
     }
   ]
