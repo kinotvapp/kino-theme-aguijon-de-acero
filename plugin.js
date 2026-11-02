@@ -1,5 +1,5 @@
 // A theme's presentation, drawn with the screen kit in whichever theme is active.
-const THEME = {"id": "aguijon-de-acero", "es": "Aguijón de Acero", "en": "Steel Stinger", "hook": "Hay más en este auto de lo que se ve.", "hookEn": "There's more to this car than meets the eye.", "desc": "Amarillo de carrocería sobre negro, con esquinas de máquina que se transforma."};
+const THEME = {"id": "aguijon-de-acero", "es": "Spider-Man", "en": "Spider-Man", "hook": "Un gran poder, una gran noche de azoteas.", "hookEn": "Great power, a great night of rooftops.", "desc": "Rojo y azul de mallas sobre una noche de rascacielos, con telarañas en cada esquina."};
 const t = (es, en) => ({ text: es, textEn: en });
 
 export async function screen({ activeTheme }) {
