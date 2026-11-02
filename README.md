@@ -1,10 +1,10 @@
-<img src="icon.png" width="128" alt="Aguijón de Acero">
+<img src="icon.png" width="128" alt="Spider-Man">
 
-# Aguijón de Acero
+# Spider-Man
 
-Amarillo de carrocería sobre negro, con esquinas de máquina que se transforma.
+Rojo y azul de mallas sobre una noche de rascacielos, con telarañas en cada esquina.
 
-Tema para [Kino](https://github.com/kinotvapp/kino-light). Cambia los colores, el fondo y las formas de toda la app, trae una pantalla de presentación y no se conecta a internet.
+Tema para [Kino](https://github.com/kinotvapp/kino-light). Cambia los colores, el fondo, las formas y el logo de toda la app, trae una pantalla de presentación y no se conecta a internet.
 
 En Kino, escribe `kinotvapp/kino-theme-aguijon-de-acero` en **Plugins ▸ Agregar un plugin**. Después ábrelo y pulsa **Activar**.
 
