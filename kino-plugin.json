@@ -1,11 +1,11 @@
 {
   "id": "theme-aguijon-de-acero",
-  "name": "Aguijón de Acero",
-  "version": "1.0.4",
+  "name": "Spider-Man",
+  "version": "1.1.0",
   "apiVersion": 18,
   "entry": "plugin.js",
   "icon": "icon.png",
-  "description": "Amarillo de carrocería sobre negro, con esquinas de máquina que se transforma.",
+  "description": "Rojo y azul de mallas sobre una noche de rascacielos, con telarañas en cada esquina.",
   "author": "kinotvapp",
   "hosts": [],
   "categories": [
@@ -15,8 +15,8 @@
     "screen"
   ],
   "screen": {
-    "label": "Aguijón de Acero",
-    "labelEn": "Steel Stinger",
+    "label": "Spider-Man",
+    "labelEn": "Spider-Man",
     "opensFrom": [
       "settings"
     ],
@@ -29,16 +29,16 @@
     {
       "id": "aguijon-de-acero",
       "name": {
-        "es": "Aguijón de Acero",
-        "en": "Steel Stinger"
+        "es": "Spider-Man",
+        "en": "Spider-Man"
       },
       "colors": {
-        "accent": "#FFD000",
-        "onAccent": "#141100",
-        "background": "#0C0C0A",
-        "surface": "#1A1912",
-        "surfaceHigh": "#27261B",
-        "railPanel": "#131209"
+        "accent": "#FF4D5E",
+        "onAccent": "#14020A",
+        "background": "#050A1C",
+        "surface": "#0F1B48",
+        "surfaceHigh": "#1A2B6B",
+        "railPanel": "#0A1334"
       },
       "shape": {
         "cardRadius": 4,
@@ -60,9 +60,9 @@
       "adjustable": {
         "colors.accent": {
           "swatches": [
-            "#FFD000",
-            "#FFB000",
-            "#D7DBE0"
+            "#FF4D5E",
+            "#3B82F6",
+            "#F5F5F5"
           ]
         },
         "shape.cardRadius": {
@@ -77,6 +77,52 @@
       "price": {
         "kinos": 10,
         "payTo": "8b97f0011f9d4594d269edc4afb3a0ee10e394abf54b0a40d90ca83f8f7d6a0e"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#050A1C",
+          "#0A1A4A"
+        ],
+        "angle": 195
+      },
+      "logo": {
+        "decor": {
+          "paths": [
+            {
+              "d": "M -373 -144 L -397 -166 L -411 -138 L -411 -131 L -397 -159 L -373 -137 Z M -373 -136 L -403 -154 L -415 -126 L -415 -119 L -403 -147 L -373 -129 Z M -373 -128 L -403 -138 L -413 -110 L -413 -103 L -403 -131 L -373 -121 Z M -373 -120 L -397 -124 L -407 -98 L -407 -91 L -397 -117 L -373 -113 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M -333 -144 L -309 -166 L -295 -138 L -295 -131 L -309 -159 L -333 -137 Z M -333 -136 L -303 -154 L -291 -126 L -291 -119 L -303 -147 L -333 -129 Z M -333 -128 L -303 -138 L -293 -110 L -293 -103 L -303 -131 L -333 -121 Z M -333 -120 L -309 -124 L -299 -98 L -299 -91 L -309 -117 L -333 -113 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M -383 -132 A 30 30 0 1 1 -323 -132 A 30 30 0 1 1 -383 -132 Z",
+              "fill": "#000000"
+            },
+            {
+              "d": "M -379 -132 A 26 26 0 1 1 -327 -132 A 26 26 0 1 1 -379 -132 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M -104 0 A 104 104 0 1 1 104 0 A 104 104 0 1 1 -104 0 Z",
+              "fill": "#000000"
+            },
+            {
+              "d": "M -100 0 A 100 100 0 1 1 100 0 A 100 100 0 1 1 -100 0 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M 0.7 -1.7 L 93.1 36.6 L 91.7 39.9 L -0.7 1.7 Z M 1.7 -0.7 L 39.9 91.7 L 36.6 93.1 L -1.7 0.7 Z M 1.7 0.7 L -36.6 93.1 L -39.9 91.7 L -1.7 -0.7 Z M 0.7 1.7 L -91.7 39.9 L -93.1 36.6 L -0.7 -1.7 Z M -0.7 1.7 L -93.1 -36.6 L -91.7 -39.9 L 0.7 -1.7 Z M -1.7 0.7 L -39.9 -91.7 L -36.6 -93.1 L 1.7 -0.7 Z M -1.7 -0.7 L 36.6 -93.1 L 39.9 -91.7 L 1.7 0.7 Z M -0.7 -1.7 L 91.7 -39.9 L 93.1 -36.6 L 0.7 1.7 Z",
+              "fill": "#000000"
+            },
+            {
+              "d": "M -31.8 0 A 31.8 31.8 0 1 1 31.8 0 A 31.8 31.8 0 1 1 -31.8 0 Z M -28.2 0 A 28.2 28.2 0 1 0 28.2 0 A 28.2 28.2 0 1 0 -28.2 0 Z M -59.8 0 A 59.8 59.8 0 1 1 59.8 0 A 59.8 59.8 0 1 1 -59.8 0 Z M -56.2 0 A 56.2 56.2 0 1 0 56.2 0 A 56.2 56.2 0 1 0 -56.2 0 Z M -87.8 0 A 87.8 87.8 0 1 1 87.8 0 A 87.8 87.8 0 1 1 -87.8 0 Z M -84.2 0 A 84.2 84.2 0 1 0 84.2 0 A 84.2 84.2 0 1 0 -84.2 0 Z",
+              "fill": "#000000"
+            }
+          ]
+        }
       }
     }
   ]
